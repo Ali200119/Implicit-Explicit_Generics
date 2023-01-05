@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Domain.Models;
+namespace Domain;
 
 public class StringList
 {

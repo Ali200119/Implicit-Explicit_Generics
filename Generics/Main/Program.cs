@@ -1,4 +1,5 @@
-﻿using Domain.Models;
+﻿using Domain;
+using Domain.Models;
 
 #region StringList
 
@@ -19,15 +20,31 @@
 
 #region IntList
 
-IntList list = new IntList();
+//IntList list = new IntList();
 
-list.Add(1);
+//list.Add(1);
 
-list.Add(2);
+//list.Add(2);
 
-list.Add(3);
+//list.Add(3);
 
-list.Add(7);
+//list.Add(7);
+
+
+//list.GetAll();
+
+#endregion
+
+#region StudentList
+
+StudentList list = new StudentList();
+
+list.Add(new Student { Id = 1, Name = "Ali" });
+
+list.Add(new Student { Id = 2, Name = "Cavid" });
+
+list.Add(new Student { Id = 3, Name = "Elekber" });
+
 
 list.GetAll();
 
