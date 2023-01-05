@@ -1,14 +1,34 @@
-﻿using Domain;
+﻿using Domain.Models;
 
-StringList list = new StringList();
+#region StringList
 
-list.Add("Ali");
+//StringList list = new StringList();
 
-list.Add("Cavid");
+//list.Add("Ali");
 
-list.Add("Elcan");
+//list.Add("Cavid");
 
-list.Add("Rustam");
+//list.Add("Elcan");
 
+//list.Add("Rustam");
+
+
+//list.GetAll();
+
+#endregion
+
+#region IntList
+
+IntList list = new IntList();
+
+list.Add(1);
+
+list.Add(2);
+
+list.Add(3);
+
+list.Add(7);
 
 list.GetAll();
+
+#endregion

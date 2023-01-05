@@ -1,4 +1,6 @@
-﻿namespace Domain;
+﻿using System;
+namespace Domain.Models;
+
 public class StringList
 {
     private string[] array;
