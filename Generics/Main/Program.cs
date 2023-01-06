@@ -101,7 +101,7 @@ using Domain.Models;
 
 #endregion
 
-#region Generic Terms
+#region Generic Constraints
 
 
 
