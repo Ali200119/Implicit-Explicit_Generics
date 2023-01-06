@@ -100,3 +100,9 @@ using Domain.Models;
 //studentList.GetAll();
 
 #endregion
+
+#region Generic Terms
+
+
+
+#endregion
