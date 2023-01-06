@@ -103,6 +103,12 @@ using Domain.Models;
 
 #region Generic Constraints
 
+Repository<Student> student = new Repository<Student>();
 
+Repository<int> number = new Repository<int>();
+
+Repository<string> str = new Repository<string>();
+
+Repository<bool> check = new Repository<bool>();
 
 #endregion
